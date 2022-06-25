@@ -1,0 +1,29 @@
+name: RedLobby
+version: '${project.version}'
+main: net.redbee.lobby.Lobby
+
+commands:
+  fly:
+    usage: /fly
+  gm:
+    aliases:
+      - gamemode
+    usage: /gm <0/1/2/3>
+  gmc:
+    usage: /gmc
+  gms:
+    usage: /gms
+  gma:
+    usage: /gma
+  gmsp:
+    usage: /gmsp
+  redlobby:
+    usage: /redlobby
+  setspawn:
+    usage: /setspawn
+  menu:
+    usage: /menu
+  heal:
+    usage: /heal
+  spawn:
+    usage: /spawn
