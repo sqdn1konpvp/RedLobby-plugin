@@ -13,6 +13,8 @@ public final class Lobby extends JavaPlugin {
 
     private static Lobby instance;
 
+    //123
+    
     @SneakyThrows
     private void registerListeners(Class<?>... classes) {
         for (Class<?> aClass : classes) {
