@@ -52,11 +52,11 @@ public final class Lobby extends JavaPlugin {
         new SetSpawnCommand();
 
         getLogger().info("Loading listeners...");
-        registerListeners(InteractListener.class,
-                JoinListener.class,
-                MenuListener.class,
-                PadListener.class,
-                SettingsListener.class);
+        registerListeners(new InteractListener(),
+                new JoinListener(),
+                new MenuListener(),
+                new PadListener(),
+                new SettingsListener());
 
         PREFIX = getConfig().getString("PREFIX");
 
